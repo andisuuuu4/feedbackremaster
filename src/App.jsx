@@ -33,19 +33,25 @@ export function App() {
  
            <div className="flex justify-between mb-6">
              <input type="button" value={1} className="bg-dark-blue w-10.5 h-10.5
-              rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white " onClick={() => handleChangeRateNote(1)}/>
+              rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover-text-white cursor-pointer sm:w-13 sm:h13 transition
+           duration-400" onClick={() => handleChangeRateNote(1)}/>
              <input type="button" value={2}className="bg-dark-blue w-10.5 h-10.5
-              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white" onClick={() => handleChangeRateNote(2)}/>
+              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white hover:bg-orange hover-text-white cursor-pointer sm:w-13 sm:h13 transition
+           duration-400" onClick={() => handleChangeRateNote(2)}/>
              <input type="button" value={3}className="bg-dark-blue w-10.5 h-10.5
-              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white" onClick={() => handleChangeRateNote(3)}/>
+              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white hover:bg-orange hover-text-white cursor-pointer sm:w-13 sm:h13 transition
+           duration-400" onClick={() => handleChangeRateNote(3)}/>
              <input type="button" value={4}className="bg-dark-blue w-10.5 h-10.5
-              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white" onClick={() => handleChangeRateNote(4)}/>
+              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white hover:bg-orange hover-text-white cursor-pointer sm:w-13 sm:h13 transition
+           duration-400" onClick={() => handleChangeRateNote(4)}/>
              <input type="button" value={5}className="bg-dark-blue w-10.5 h-10.5
-              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white" onClick={() => handleChangeRateNote(5)}/>
+              rounded-full text-sm text-medium-grey font-bold  focus:bg-medium-grey focus:text-white hover:bg-orange hover-text-white cursor-pointer sm:w-13 sm:h13 transition
+           duration-400" onClick={() => handleChangeRateNote(5)}/>
            </div>
  
            <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold 
-           tracking-1 " onClick={handleSubmit}>Submit</button>
+           tracking-1 hover:bg-white hover:text-orange cursor-pointer transition
+           duration-400" onClick={handleSubmit}>Submit</button>
  
        </div>
       ) : (
