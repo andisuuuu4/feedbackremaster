@@ -1,4 +1,5 @@
 import iconStar from "./assets/icon-star.svg"
+import illustrationThankYou from "./assets/illustration-thank-you.svg"
 import { useState } from "react"
 
 export function App() {
@@ -19,8 +20,7 @@ export function App() {
   }
 
   return (
-    <div className="h-svh bg-very-dark-blue text-white flex justify-center items-center px-6">
-      {submited === false ? (
+      submited === false ? (
         <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8  rounded-2xlfont-overpass">
         <div className="bg-dark-blue p-4 w-fit rounded-full mb-4">
          <img src={iconStar} alt="" srcset="ícone da estrela" />
@@ -49,8 +49,12 @@ export function App() {
  
        </div>
       ) : (
-        <p>Outro codigo</p>
-      )}
-    </div>
+        <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8  rounded-2xl 
+        font-overpass">
+          <img src={illustrationThankYou} alt="illustration Thank You" />
+
+          <p></p>
+        </div>       
+      )
   )
 }
